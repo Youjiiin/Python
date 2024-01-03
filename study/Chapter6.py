@@ -25,7 +25,6 @@ else: # 그 외의 모든 경우(0도 미만이면)
 
 
 # 반복문
-    
 # for
 for waiting_no in [1, 2, 3, 4, 5]:
     print("대기번호 : {0}".format(waiting_no)) # {0} 위치에 waiting_no의 값이 들어감

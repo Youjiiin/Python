@@ -15,10 +15,11 @@ print("주민등록번호 뒷자리(뒤에서부터) : " + jNum[-7:])
 
 # islower() : 소문자인지 확인
 print("abc".islower())
+print("AbC".isupper())
 # isupper() : 대문자인지 확인
 
 # replace() : 문자열 바꾸기
-print("abc".replace("a", "A"))
+print("abc".replace("a", ""))
 
 # index() : 찾는 문자열의 인덱스 (없으면 오류)
 # index(찾는 문자, 시작 인덱스, 종료 인덱스)
@@ -26,13 +27,14 @@ print("abcdefaa".index("b"))
 
 # find() : 찾는 문자열의 인덱스 (없으면 -1) 
 # find(찾는 문자, 시작 인덱스, 종료 인덱스)
-print("abcadefa".find("d", 0, 5))
+print("abcadefa".find("d", 0, 3))
 
 # count() : 문자열이 나온 횟수
 print("aaaaaaabc".count("a"))
 
 # 문자열의 길이
-print(len("abcc"))
+a = "abcc"
+print(len(a))
 
 # 문자열 포매팅 : 원하는 위치에 특정한 값 넣기
 # %d %f %c %s

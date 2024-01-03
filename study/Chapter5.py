@@ -35,7 +35,7 @@ num_list = sorted(num)
 print(num_list)
 
 # 내림차순 정렬
-num.sort(reverse=True) 
+num.sort(reverse=True)
 print(num)
 
 # 순서뒤집기
@@ -68,7 +68,7 @@ print("푸" in "곰돌이")
 # value값 변경
 print(cabinet)
 cabinet[3] = "티거" # key에 해당하는 값이 있을 때 -> 값 변경
-cabinet["20"] = "이요르" # key에 해당하는 값이 없을 때 -> 값 추가
+cabinet[20] = "이요르" # key에 해당하는 값이 없을 때 -> 값 추가
 print(cabinet)
 
 # 값 제거
